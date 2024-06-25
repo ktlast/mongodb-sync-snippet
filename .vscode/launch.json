@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run DEV",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "clone_db",
+            "justMyCode": true,
+            "pythonArgs": [
+                "-OO"
+            ],
+            "autoReload": {
+                "enable": true
+            },
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
