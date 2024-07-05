@@ -2,10 +2,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run DEV",
+            "name": "clone_db",
             "type": "debugpy",
             "request": "launch",
             "module": "clone_db",
+            "justMyCode": true,
+            "pythonArgs": [
+                "-OO"
+            ],
+            "autoReload": {
+                "enable": true
+            },
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "clone_to_legacy",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "clone_to_legacy",
             "justMyCode": true,
             "pythonArgs": [
                 "-OO"
