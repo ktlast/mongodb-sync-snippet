@@ -16,10 +16,10 @@
             "envFile": "${workspaceFolder}/.env"
         },
         {
-            "name": "clone_to_legacy",
+            "name": "clone_collection",
             "type": "debugpy",
             "request": "launch",
-            "module": "clone_to_legacy",
+            "module": "clone_collection",
             "justMyCode": true,
             "pythonArgs": [
                 "-OO"
